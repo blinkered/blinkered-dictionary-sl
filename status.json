@@ -6,7 +6,7 @@
   "ships": "pending",
   "decided": null,
   "why": null,
-  "license": null,
+  "license": "CC0-1.0",
   "conforms": true,
   "families": 17,
   "checkable": 16,
