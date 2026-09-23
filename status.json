@@ -2,14 +2,14 @@
   "language": "sl",
   "built": "2026-09-23",
   "candidates": 262639,
-  "shipped": 62179,
+  "shipped": 136507,
   "ships": "pending",
   "decided": null,
   "why": null,
   "license": null,
   "conforms": true,
-  "families": 5,
-  "checkable": 4,
+  "families": 17,
+  "checkable": 16,
   "knee": 4,
   "steps": [
     {
@@ -21,31 +21,115 @@
     },
     {
       "families": 2,
-      "added": "leipzig",
+      "added": "internetarchive",
       "kept": 0,
       "share": 0,
       "gained": 0
     },
     {
       "families": 3,
-      "added": "internetarchive",
-      "kept": 58850,
-      "share": 0.224072,
-      "gained": 58850
+      "added": "leipzig",
+      "kept": 122696,
+      "share": 0.467166,
+      "gained": 122696
     },
     {
       "families": 4,
-      "added": "gutenberg",
-      "kept": 61572,
-      "share": 0.234436,
-      "gained": 2722
+      "added": "24ur.com",
+      "kept": 126783,
+      "share": 0.482727,
+      "gained": 4087
     },
     {
       "families": 5,
+      "added": "delo.si",
+      "kept": 128536,
+      "share": 0.489402,
+      "gained": 1753
+    },
+    {
+      "families": 6,
+      "added": "mladina.si",
+      "kept": 130034,
+      "share": 0.495105,
+      "gained": 1498
+    },
+    {
+      "families": 7,
+      "added": "n1info.si",
+      "kept": 131378,
+      "share": 0.500223,
+      "gained": 1344
+    },
+    {
+      "families": 8,
+      "added": "gutenberg",
+      "kept": 132657,
+      "share": 0.505093,
+      "gained": 1279
+    },
+    {
+      "families": 9,
+      "added": "metropolitan.si",
+      "kept": 133699,
+      "share": 0.50906,
+      "gained": 1042
+    },
+    {
+      "families": 10,
+      "added": "primorske.si",
+      "kept": 134494,
+      "share": 0.512087,
+      "gained": 795
+    },
+    {
+      "families": 11,
+      "added": "reporter.si",
+      "kept": 135070,
+      "share": 0.51428,
+      "gained": 576
+    },
+    {
+      "families": 12,
+      "added": "svet24.si",
+      "kept": 135532,
+      "share": 0.516039,
+      "gained": 462
+    },
+    {
+      "families": 13,
+      "added": "dnevnik.si",
+      "kept": 135902,
+      "share": 0.517448,
+      "gained": 370
+    },
+    {
+      "families": 14,
+      "added": "zurnal24.si",
+      "kept": 136202,
+      "share": 0.51859,
+      "gained": 300
+    },
+    {
+      "families": 15,
+      "added": "siol.net",
+      "kept": 136422,
+      "share": 0.519428,
+      "gained": 220
+    },
+    {
+      "families": 16,
       "added": "tatoeba",
-      "kept": 62179,
-      "share": 0.236747,
-      "gained": 607
+      "kept": 136505,
+      "share": 0.519744,
+      "gained": 83
+    },
+    {
+      "families": 17,
+      "added": "demokracija.si",
+      "kept": 136507,
+      "share": 0.519751,
+      "gained": 2
     }
   ]
 }

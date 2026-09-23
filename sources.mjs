@@ -131,11 +131,13 @@ export const SOURCES = ALL.filter((source) => {
  *
  * Chosen because they publish in Slovene rather than because they are large. A harvester reads
  * whatever it fetches and has no idea what language it is in, so a domain that publishes mostly
- * in another language would attest that language's words against these candidates.
+ * in another language would attest that language's words against these candidates. RTV
+ * Slovenija (`rtvslo.si`) offers no sitemap or feed the harvest can find and is not listed.
  */
 export const DOMAINS = [
-  'rtvslo.si', 'delo.si', 'dnevnik.si', '24ur.com', 'siol.net',
-  'mladina.si',
+  'delo.si', 'dnevnik.si', '24ur.com', 'siol.net', 'mladina.si',
+  'zurnal24.si', 'n1info.si', 'svet24.si', 'primorske.si', 'demokracija.si',
+  'reporter.si', 'metropolitan.si',
 ]
 
 export const HARVEST = existsSync(new URL('searched.tsv', import.meta.url).pathname)

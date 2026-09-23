@@ -14,10 +14,22 @@ collection rather than reuse its record only has to put the file back where the 
 | --- | ---: | --- | --- |
 | `wiki:sl` | 64,118,158 | Slovene Wikipedia; modern encyclopedic prose | [slwiki.xml.bz2](https://dumps.wikimedia.org/slwiki/latest/slwiki-latest-pages-articles.xml.bz2) |
 | `wikisource:sl` | 43,823,654 | Slovene Wikisource; same Wikimedia family, so it corroborates rather than counts | [slwikisource.xml.bz2](https://dumps.wikimedia.org/slwikisource/latest/slwikisource-latest-pages-articles.xml.bz2) |
+| `ia` | 19,609,516 | Internet Archive Slovene books; literature, and the register a newspaper never reaches | [archive-sl](https://archive.org/search?query=mediatype%3Atexts+AND+%28language%3A%22Slovenian%22+OR+language%3Aslv%29) |
 | `lz:slv-si_web_2014_1M` | 6,652,541 | Leipzig slv-si_web_2014_1M; news and web, cited by the page each sentence came from | [slv-si_web_2014_1M](https://downloads.wortschatz-leipzig.de/corpora/slv-si_web_2014_1M.tar.gz) |
-| `ia` | 2,086,461 | Internet Archive Slovene books; literature, and the register a newspaper never reaches | [archive-sl](https://archive.org/search?query=mediatype%3Atexts+AND+%28language%3A%22Slovenian%22+OR+language%3Aslv%29) |
+| `web:delo.si` | 1,274,330 |  | fetched from `delo.si`, recorded in `searched.tsv` |
+| `web:24ur.com` | 954,337 |  | fetched from `24ur.com`, recorded in `searched.tsv` |
+| `web:n1info.si` | 638,953 |  | fetched from `n1info.si`, recorded in `searched.tsv` |
 | `lz:slv_news_2020_1M` | 339,081 | Leipzig slv_news_2020_1M; news and web, cited by the page each sentence came from | [slv_news_2020_1M](https://downloads.wortschatz-leipzig.de/corpora/slv_news_2020_1M.tar.gz) |
+| `web:reporter.si` | 251,841 |  | fetched from `reporter.si`, recorded in `searched.tsv` |
+| `web:mladina.si` | 243,447 |  | fetched from `mladina.si`, recorded in `searched.tsv` |
+| `web:metropolitan.si` | 186,935 |  | fetched from `metropolitan.si`, recorded in `searched.tsv` |
+| `web:svet24.si` | 172,865 |  | fetched from `svet24.si`, recorded in `searched.tsv` |
+| `web:primorske.si` | 166,070 |  | fetched from `primorske.si`, recorded in `searched.tsv` |
+| `web:siol.net` | 136,586 |  | fetched from `siol.net`, recorded in `searched.tsv` |
 | `gut` | 121,857 | Project Gutenberg Slovene, 5 texts | [gutenberg-sl](https://www.gutenberg.org/cache/epub/feeds/pg_catalog.csv) |
+| `web:demokracija.si` | 112,959 |  | fetched from `demokracija.si`, recorded in `searched.tsv` |
+| `web:dnevnik.si` | 86,190 |  | fetched from `dnevnik.si`, recorded in `searched.tsv` |
+| `web:zurnal24.si` | 78,516 |  | fetched from `zurnal24.si`, recorded in `searched.tsv` |
 | `tat` | 13,089 | Tatoeba Slovene; contemporary and conversational, and small | [slv_sentences.tsv](https://downloads.tatoeba.org/exports/per_language/slv/slv_sentences.tsv.bz2) |
 
 Totals are playable tokens after folding, not bytes. A collection missing from this table was

@@ -8,9 +8,9 @@ the curve a careful builder would get, not the order this repository happens to 
 The first two families keep nothing, which is not padding — it is the shape of a rule that needs
 three independent sources.
 
-Candidates: 262,639. Shipped: 62,179.
+Candidates: 262,639. Shipped: 136,507.
 
-Of 5 families, **4 can be checked by fetching** —
+Of 17 families, **16 can be checked by fetching** —
 a stable identifier or a page we fetched ourselves. The other 1 are crawls
 somebody else made, whose locators record where they found the sentence; the document that holds
 it is their published corpus, not the web.
@@ -18,9 +18,21 @@ it is their published corpus, not the web.
 | families | added | kept | coverage | gained |
 | --- | --- | --- | --- | --- |
 | 1 | `wikimedia` | 0 | 0.0% | — |
-| 2 | `leipzig` | 0 | 0.0% | — |
-| 3 | `internetarchive` | 58,850 | 22.4% | +58,850 |
-| 4 | `gutenberg` | 61,572 | 23.4% | +2,722 |
-| 5 | `tatoeba` | 62,179 | 23.7% | +607 |
+| 2 | `internetarchive` | 0 | 0.0% | — |
+| 3 | `leipzig` | 122,696 | 46.7% | +122,696 |
+| 4 | `24ur.com` | 126,783 | 48.3% | +4,087 |
+| 5 | `delo.si` | 128,536 | 48.9% | +1,753 |
+| 6 | `mladina.si` | 130,034 | 49.5% | +1,498 |
+| 7 | `n1info.si` | 131,378 | 50.0% | +1,344 |
+| 8 | `gutenberg` | 132,657 | 50.5% | +1,279 |
+| 9 | `metropolitan.si` | 133,699 | 50.9% | +1,042 |
+| 10 | `primorske.si` | 134,494 | 51.2% | +795 |
+| 11 | `reporter.si` | 135,070 | 51.4% | +576 |
+| 12 | `svet24.si` | 135,532 | 51.6% | +462 |
+| 13 | `dnevnik.si` | 135,902 | 51.7% | +370 |
+| 14 | `zurnal24.si` | 136,202 | 51.9% | +300 |
+| 15 | `siol.net` | 136,422 | 51.9% | +220 |
+| 16 | `tatoeba` | 136,505 | 52.0% | +83 |
+| 17 | `demokracija.si` | 136,507 | 52.0% | +2 |
 
-**Diminishing returns from family 4** (`gutenberg`, +2,722), where a family first added less than a twentieth of what the best one did.
+**Diminishing returns from family 4** (`24ur.com`, +4,087), where a family first added less than a twentieth of what the best one did.
